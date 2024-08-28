@@ -1,0 +1,13 @@
+name: MyAutomatisation
+
+on:
+  push:
+    branches: [ "main" ]
+
+
+jobs:
+ hello:
+   runs-on: ubuntu-leatest
+
+   steps:
+     - uses: actions/checkout@v3
